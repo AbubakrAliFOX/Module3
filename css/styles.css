@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: PowderBlue;
+	font-family: 'Krub', sans-serif;
+	font-size: 16px;
+
+}
+
+#header-nav {
+	background-color: lavender;
+	border: 0;
+
+}
+
+.navbar-header h1 {
+	margin-left: 15px;
+	font-family: 'Indie Flower', cursive;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px black;
+}
+
+.navbar-header a:hover, .navbar a:focus {
+	text-decoration: none;
+	color: DarkBlue;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+.content h1 {
+	text-align: center;
+	margin: 15px;
+
+}
+
+.chicken {
+	background-color: white;
+	margin: 20px 10px 10px 10px;
+	padding: 5px 15px 15px 15px;
+}
+
+
+.chicken h3 {
+	text-align: center;
+}
+
+#nav-list {
+	text-align: center;
+	margin-top: 15px;
+}
+
+#nav-list a:hover {
+	text-decoration: none;
+	color: DarkBlue;
+	text-shadow: 1px 1px 1px black;
+
+}
+
+.button {
+	margin-top: -70px;
+	clear: both;
+	color: green;
+}
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+.content {
+	margin-top: 100px;
+	position: unset;
+}
+
+.button_1 {
+	margin-top: -55px;
+}
+}
+@media only screen and (max-width: 770px) {
+	.content {
+		margin-top: 200px;
+	}
+}
